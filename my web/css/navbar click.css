@@ -1,0 +1,235 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* navbar css */
+
+.icon{
+    padding-left:30px ;
+    padding-top: 0px;
+}
+.blue_suol{
+
+    margin-top: 0%;
+}
+.svg-div-1{
+    width: 20%;
+    padding-left: 100px;
+}
+.menubar{
+    width: 50px;
+}
+.mune_btm{
+    border: none;
+}
+.h1_logo{
+    text-align: center;
+    font-style: oblique;
+    color: rgb(0, 105, 146);
+}
+.sign_in_fount{
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 1px;
+    padding-left: 8px;
+}
+ .search_fount{
+    font-size: 34px;
+    font-weight: 100;
+    padding-left: 10px;
+    padding-top: 10px;
+ }
+.search{
+    width: 50px;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 25px;
+    margin-left: 0px;  
+}
+.popup{
+    display: none;
+}
+.my_box{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 30%;
+    background-color: white;
+}
+.ovwrlay{
+    background-color: black;
+    opacity: 50%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+.hide{
+  margin-left:93%;
+    fill: white;
+  border: none;
+   background-color: black;
+   padding: 5px 10px;
+}
+.menu_h1{
+    text-align: center;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    height: 60px;
+    width: 100%;
+    margin-left: -1%;
+    background-color: rgb(216, 216, 216);
+    margin-top: -20px;
+    
+}
+.input{
+    width:100%;
+    height: 50px;
+    margin-top: -10%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
+    border-left: none;
+    border-right: none;
+    margin-left: -1%;
+    background-color: white;
+}
+.input:hover{
+    background-color: rgb(236, 236, 236);
+}
+.desc{
+    list-style: none;
+    
+}
+.featured-button{
+    width: 100%;
+    margin-left:-1px;
+    height: 50px;
+    border-left:none ;
+    border-right:none ;  
+    border-top: none;
+    text-align:  left;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color:white;
+}
+.featured-button:hover{
+    background-color: rgb(236, 236, 236);
+}
+li{
+    width: 111%;
+    margin-left: -13%;
+    height: 50px;
+    padding-top: 5px;
+    border-bottom: solid 1px black;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+li:hover{
+      background-color: rgb(236, 236, 236);
+}
+.box1{
+    width: 100%;
+    padding-left: 20px;
+    
+} 
+.popup1{
+    display: none;
+}
+.popup2{
+    display: none;
+}
+.popup3{
+    display: none;
+}
+.woman_button{
+    width: 100%;
+    margin-left:-1px;
+    height: 50px;
+    border-left:none ;
+    border-right:none ;  
+    border-top: none;
+    text-align:  left;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+}
+.woman_button:hover{
+    background-color: rgb(236, 236, 236);
+}
+.plus{
+    
+    margin-left: 70%;
+}
+.plus1{
+    
+    margin-left: 77%;
+}
+.men_button{
+    width: 100%;
+    margin-left:-1px;
+    height: 50px;
+    border-left:none ;
+    border-right:none ;  
+    border-top: none;
+    text-align:  left;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+}
+.men_button:hover{
+    background-color: rgb(236, 236, 236);
+}
+.sign_button{
+    width: 100%;
+    margin-left:-1px;
+    height: 50px;
+    border-left:none ;
+    border-right:none ;  
+    border-top: none;
+    text-align:  left;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+}
+.sign_button:hover{
+    background-color: rgb(236, 236, 236);
+}
+/* banner start */
+.banner_img_1{
+background-image: url(Hoodies_540x.webp);
+height: 680px;
+}
+
+.banner_h1{
+color: white;  
+margin-top: 550px;
+padding-left: 20px;
+}
+.banner_h2{
+    color: white;  
+    margin-top: 600px;
+    padding-left: 20px
+}
+.Discover-more{
+   color: white;
+   padding-left: 20px;
+}
+.banner_img_2{
+    background-image: url(polos_540x.webp);
+    height: 680px;
+}
+.banner_img_3{
+    background-image: url(tees_540x.webp);
+    height: 680px;
+}

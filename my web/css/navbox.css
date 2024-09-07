@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navebar{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+}
+.men_list{
+    color: white;
+    font-size: 25px;
+ padding-left: 50%;
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner{
+    background-color: aquamarine;
+    width: 100%;
+    height: 500px;
+}
+.droup-down{
+    width: 140px;
+    font-size: 20px;
+    background-color:black;
+    color: white;
+    position: absolute;
+    list-style: none;
+    opacity: 100%;
+    display: none;
+ text-align: center;
+}
+.droup_down_list:hover .droup-down{
+    display: block;
+}
+.droup-down li{
+    list-style: none;
+}
+.list_men{
+    position: relative;
+}
+.list_men::before{
+    content:"";
+    
+    background-color: white;
+    position: absolute;
+    top: 93%;
+    right:100%;
+    left: 100%;
+    bottom: 0;
+    transition: ease 0.5s;
+}
+.list_men:hover::before{
+    content:"";
+    background-color: white;
+    position: absolute;
+    top: 93%;
+    right:0%;
+    left: 0%;
+    bottom: 0;
+}
+.droup_down_li:hover{
+    background-color: rgb(71, 71, 71);
+}

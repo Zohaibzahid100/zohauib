@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .div{
+            width: 100%;
+            height: 650px;
+            background-color: black;
+            position: relative;
+        }
+        .box_move{
+            width: 30%;
+            height: 300px;
+            background-color: blue;
+            position: absolute;
+            top: 0;
+            left: 0%;
+            animation-name: box_move;
+            animation-duration: 50s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            
+        }
+        @keyframes box_move{
+         0%{
+         top: 0%;
+         left: 0%;
+        }
+         70%{
+            top: 0;
+         left: 60%;
+         }
+         50%{
+        top: 50%;
+            left: 60%;
+         }
+         80%{
+            left: 0;
+            top: 50%;
+         }
+         100%{
+            top: 0;
+            left: 0;
+         }
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <div class="box_move"></div>
+    </div>
+</body>
+</html>

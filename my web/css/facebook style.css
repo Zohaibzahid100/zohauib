@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pre_div{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+  
+  
+}
+.fb_head_pra{
+    height: 300px;
+    width: 40%;
+    margin-top: 13%;
+    padding-left: 35px;
+}
+.h1{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 89, 255);
+
+}
+.h4{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: lighter;
+    
+}
+.login{
+    width: 57%;
+}
+.email_box{
+    margin-top: 20%;
+    height: 40px;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: 100;
+    padding-left: 10px;
+}
+.passward{
+    height: 40px;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: 100;
+    padding-left: 10px;
+    margin-top: 1%;
+}
+.login_button{
+    height: 45px;
+    width: 52%;
+    margin-left: 25%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(0, 89, 255) ;
+    color: white;
+    margin-top: 1%;
+}
+.forget {
+    color:rgb(0, 89, 255) ;
+    font-size: 17px;
+    margin-left: 41%;
+    margin-top: 10px;
+}
+.creat_new_account{
+    margin-top: 5%;
+    margin-left: 36%;
+    color: white;
+    background-color:rgb(0, 226, 0);
+    height: 45px;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.hr{
+    width: 52%;
+    margin-left: 25%;
+    margin-top: 3%;
+    
+}
+.b{
+    margin-left: 31.6%;
+
+}

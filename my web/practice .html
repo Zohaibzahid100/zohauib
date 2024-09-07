@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .pra_div{
+        background-color: burlywood;
+        height: 250px;
+        width: 30%;
+        margin-top: 200px;
+        margin-left: 35%;
+        padding: 20px;
+        position: relative;   
+     border-radius: 10%;
+    
+    }
+    
+    
+    .p{
+        font-size: 27px;
+        color:black;
+    z-index: 1;
+    position: relative;
+    transition: ease 0.5s;
+    text-align: center;
+    
+    }
+    
+    .pra_div:hover .p{
+        color: white;
+        left: 0;
+        top: 0%;
+        right: 0;
+        bottom: 0;
+    
+    }
+    .pra_div::before{
+        content:"";
+        background-color: rgb(227, 147, 0);
+        position: absolute;
+        left: 0;
+        top: 100%;
+        right: 0;
+        bottom: 0;
+      transition: ease 0.5s;
+    
+    }
+    .pra_div:hover::before{
+        content:"";
+        background-color: rgb(227, 147, 0);
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+  
+    }
+</style>
+<body>
+    <ection class="main_sec">
+    <div class="pra_div">
+     <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati suscipit ab, ipsum provident quos hic at facilis! Quia, corrupti, impedit aliquid accusantium animi aperiam, possimus officia voluptate quae at quasi.</p>
+    </div>
+    </ection>
+</body>
+</html>g

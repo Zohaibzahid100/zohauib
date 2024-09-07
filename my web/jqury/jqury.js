@@ -1,0 +1,17 @@
+$(document).ready(function(){
+   $(".mune_btm").click(function(){
+    $(".popup").show()
+   })
+    $(".hide").click(function(){
+     $(".popup").hide()
+    })
+   $(".featured-button").click(function(){
+      $(".popup1").slideToggle()
+   })
+   $(".woman_button").click(function(){
+      $(".popup2").slideToggle()
+   })
+   $(".men_button").click(function(){
+      $(".popup3").slideToggle()
+   })
+   })
